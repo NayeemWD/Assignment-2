@@ -1,0 +1,135 @@
+/* <div class="form-1">
+.form{
+    width: 100px;
+    margin-right: 10px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;}
+<form action=""  >
+    <input type="text" class="form">
+    <select name="" id="" class="form">
+        <option value="">1</option>
+        <option value="">2</option>
+        <option value="">3</option>
+    </select>
+    <select name="" id="" class="form">
+        <option value="">1</option>
+        <option value="">2</option>
+        <option value="">3</option>
+    </select>
+    <input type="submit" class="form">
+</form>
+</div> */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,700;1,700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* shared styles */
+
+*{
+    font-family: 'Mulish';
+}
+:root{
+    --primary-color: #FF5400;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* header styles */
+header{
+margin: 50px 130px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%; */
+}
+.nav-title-bar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-titale-bar{
+
+}
+.nav-title-style{
+    color: var(--primary-color);
+}
+nav  ul{
+    display: flex;
+    gap: 50px;
+}
+nav li{
+    list-style: none;
+    font-weight: 500;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-home{
+    color: var(--primary-color);
+}
+/* banner styles */
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    margin: 30px 0px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+}
+.banner-tital{
+    font-size: 64px;
+    font-weight: 800;
+    color: #FFFF;
+}
+.banner-description{
+    /* width: 676px; */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 30px 0px;
+    color: #FFFF;
+
+}
+.banner-search{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 16px;
+
+
+}
+.form-boutton{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    width: 800px;
+    padding: 20px;
+    background: rgba(126, 112, 112, 0.377);
+    border-radius: 8px;
+    
+}
+.form{
+    height: 50px;
+    width: 170px;
+    border-radius: 8px
+    
+
+}
+    
