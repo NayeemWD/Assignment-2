@@ -1,31 +1,3 @@
-/* <div class="form-1">
-.form{
-    width: 100px;
-    margin-right: 10px;
-}
-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;}
-<form action=""  >
-    <input type="text" class="form">
-    <select name="" id="" class="form">
-        <option value="">1</option>
-        <option value="">2</option>
-        <option value="">3</option>
-    </select>
-    <select name="" id="" class="form">
-        <option value="">1</option>
-        <option value="">2</option>
-        <option value="">3</option>
-    </select>
-    <input type="submit" class="form">
-</form>
-</div> */
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,700;1,700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
 /* shared styles */
@@ -129,7 +101,105 @@ nav li a{
     height: 50px;
     width: 170px;
     border-radius: 8px
-    
+}
+
+/* main section style */
+.popular-tours{
+    display: flex;
+    margin: 50px 0px;
+    gap: 40px;
+}
+.popular-tours-title{
+    font-size: 40px;
+    font-weight: 800;
+}
+.popular-tours-description{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 30px 0px;
 
 }
+.popular-tours-description > {
+    gap: 20px;
+}
+.popular-tours-button{
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    color: #FFFF;
+    font-size: 20px;
+    font-weight: 800;
+    border: 0px;
+}
+
+
+.destination-container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+.destination-title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.destination-destination{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.destination-imgs{
+    width: 1300px;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+.destination-container2{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.destination-container3{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin: 20px 0px;
+
+}
+.destination-container4{
+    height: 300px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.destination-imgs img{
+    position: relative;
+}
+.destination-h{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    top: -55%;
+    font-size: 35px;
+    font-weight: 800;
+    color: #FFF;
+
+
     
+}
