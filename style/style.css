@@ -20,15 +20,10 @@ header, main{
     display: none;
 }
 
-/* header styles */
-/* header{
-margin: 50px 130px;
-} */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* width: 100%; */
 }
 .nav-title-bar{
     display: flex;
@@ -70,7 +65,6 @@ nav li a{
     color: #FFFF;
 }
 .banner-description{
-    /* width: 676px; */
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -85,8 +79,6 @@ nav li a{
     justify-content: center;
     flex-direction: column;
     font-size: 16px;
-
-
 }
 .form-boutton{
     display: flex;
@@ -98,14 +90,12 @@ nav li a{
     padding: 20px;
     background: rgb(255 255 255 / 38%);
     border-radius: 8px;
-    
 }
 .form{
     height: 50px;
     width: 170px;
     border-radius: 8px
 }
-
 /* main section style */
 .popular-tours{
     display: flex;
@@ -141,8 +131,6 @@ nav li a{
     font-weight: 800;
     border: 0px;
 }
-
-
 .destination-container1{
     display: flex;
     flex-direction: column;
@@ -207,7 +195,6 @@ nav li a{
     color: #FFF;
 }
 
-
 .section-3-part1{
     display: flex;
     flex-direction: column;
@@ -215,7 +202,6 @@ nav li a{
     gap: 20px;
     padding: 50px 0px;
 }
-
 
 .section-3-part2-box{
     width: 573px;
@@ -234,8 +220,6 @@ nav li a{
     font-size: 24px;
     font-weight: 800;
     padding: 20px 0px;
-
-
 }
 .section-3-part2-box p{
     color: #5A5A5D;
@@ -243,7 +227,6 @@ nav li a{
     font-weight: 400;
     line-height: 26px;
 }
-
 #box1{
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
@@ -271,7 +254,6 @@ nav li a{
     justify-content: center;
     align-items: center;
 }
-
  /* ****mother     html:138 */
  .Section-4{
     display: flex;
@@ -284,24 +266,19 @@ nav li a{
 
 .Section-4-part-1 h1{
     color: #131318;
-    font-size: 40px;
-     
+    font-size: 40px; 
  }
  .Section-4-part-1 p{
     color: #5A5A5D;
-
  }
  .Section-4-part-1 ul li{
     color: #131318;
     font-size: 20px;
  }
-
  .Section-4-part-2 img{
     height: 298px;
     padding: 37px;
-}
-/* ****mother     html:158 */
- 
+} 
 /* START-Newsletter */
 .Section-5 {
     display: flex;
@@ -314,8 +291,6 @@ nav li a{
     border-radius: 16px;
     border: 1px solid #FF5400;
     margin-left: 40px;
-     
-
 }
 .Newsletter-input h1{
     color:#131318;
@@ -363,18 +338,24 @@ margin-left: 37px;
     margin-left: 10px;
 }
 .discount{
-    position: absolute;
-    margin-left: -330px;
+    position: relative;
+    z-index: 1;
     border-radius: 16px;
     background: #FF5400;
-    width: 324px;
-    height: 120px;
+    width: 20rem;
+    height: 7rem;
     transform: rotate(-19.628deg);
     flex-shrink: 0;
     color: #FFFFFF;
-    margin-top: 255px;
+    left: 357px;
+    top: -162px;
+}
+.Newsletter{
+    position: relative;
+    z-index: 5;
 }
 .Newsletter-photo img{
+    position: relative;
     margin-left: 10px;
 }
 /* END-Newsletter */
@@ -391,7 +372,6 @@ margin-left: 37px;
     /* padding: 0px 300px; */
     margin-top: 50px;
     }
-
 .footer-title{
     display: flex;
     align-items: center;
